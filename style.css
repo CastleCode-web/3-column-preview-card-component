@@ -79,15 +79,9 @@ button:hover{
     padding: 0.2em 0 1.8em 0;
 }
 div .sedan{
-    background-color: hsl(31, 77%, 52%);
     border-radius: 6px 6px 0 0 ;
-    
-}
-div .suv{
-    background-color: hsl(184, 100%, 22%);
 }
 div .luxury{
-    background-color: hsl(179, 100%, 13%);
     border-radius: 0 0 6px 6px;
 }
 div .cars{
@@ -95,5 +89,4 @@ div .cars{
     margin: 0 auto;
     padding: 3em;
 }
-
 }
