@@ -1,0 +1,99 @@
+*{ box-sizing: border-box; }
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 1em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h1, h2, h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: hsl(0, 0%, 95%);
+    letter-spacing: 0.1rem;
+}
+div .sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    border-radius: 6px 0 0 6px;
+    
+}
+div .suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+div .luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 1.59em;
+    border-radius: 0 6px 6px 0;
+}
+.btn{
+    width: 8rem;
+    height: 2.5rem;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 200px;
+    border-style: none;
+    background-color: hsl(0, 0%, 95%);
+}
+.sedanbtn{
+    color: hsl(31, 77%, 52%);
+}
+.suvbtn{
+    color: hsl(184, 100%, 22%);
+}
+.luxurybtn{
+    color: hsl(179, 100%, 13%);
+}
+div .cars{
+    line-height: 1.9em;
+    margin: 6em 0; 
+}
+p{
+    padding: 0.5em 0 3.9em 0;
+}
+button:hover{
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: initial;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media screen and (max-width: 375px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1em;
+  }
+  p{
+    padding: 0.2em 0 1.8em 0;
+}
+div .sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 6px 6px 0 0 ;
+    
+}
+div .suv{
+    background-color: hsl(184, 100%, 22%);
+}
+div .luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 6px 6px;
+}
+div .cars{
+    line-height: 2em;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+}
